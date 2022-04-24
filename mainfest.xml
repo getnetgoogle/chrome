@@ -1,0 +1,405 @@
+<manifest versionCode="489612723" versionName="100.0.4896.127" isolatedSplits="true" compileSdkVersion="31" compileSdkVersionCodename="12" package="com.android.chrome" platformBuildVersionCode="31" platformBuildVersionName="12">
+
+    <uses-sdk minSdkVersion="24" targetSdkVersion="31"/>
+
+    <uses-feature glEsVersion="131072"/>
+
+    <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission-sdk-23 name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission-sdk-23 name="android.permission.BLUETOOTH_ADMIN" maxSdkVersion="30"/>
+
+    <uses-permission-sdk-23 name="android.permission.BLUETOOTH_CONNECT"/>
+
+    <uses-permission-sdk-23 name="android.permission.BLUETOOTH_ADVERTISE"/>
+
+    <uses-permission-sdk-23 name="android.permission.BLUETOOTH"/>
+
+    <uses-permission-sdk-23 name="android.permission.BLUETOOTH_SCAN" usesPermissionFlags="65536"/>
+
+    <uses-permission-sdk-23 name="android.permission.READ_CONTACTS"/>
+
+    <uses-permission-sdk-23 name="android.permission.REORDER_TASKS"/>
+
+    <uses-permission-sdk-23 name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <uses-permission name="android.permission.CAMERA"/>
+
+    <uses-permission name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <uses-permission name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+
+    <uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+
+    <uses-permission name="android.permission.GET_ACCOUNTS"/>
+
+    <uses-permission name="android.permission.INTERNET"/>
+
+    <uses-permission name="android.permission.MANAGE_ACCOUNTS"/>
+
+    <uses-permission name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+    <uses-permission name="android.permission.NFC"/>
+
+    <uses-permission name="android.permission.POST_NOTIFICATIONS"/>
+
+    <uses-permission name="android.permission.QUERY_ALL_PACKAGES"/>
+
+    <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <uses-permission name="android.permission.RECORD_AUDIO"/>
+
+    <uses-permission name="android.permission.USE_CREDENTIALS"/>
+
+    <uses-permission-sdk-23 name="android.permission.USE_BIOMETRIC"/>
+
+    <uses-permission-sdk-23 name="android.permission.USE_FINGERPRINT"/>
+
+    <uses-permission name="android.permission.VIBRATE"/>
+
+    <uses-permission name="android.permission.WAKE_LOCK"/>
+
+    <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-feature name="android.software.vr.mode" required="false"/>
+
+    <uses-feature name="android.hardware.vr.high_performance" required="false"/>
+
+    <uses-feature name="android.hardware.screen.landscape" required="false"/>
+
+    <uses-feature name="android.hardware.vr.headtracking" required="false" version="1"/>
+
+    <uses-feature name="android.hardware.sensor.gyroscope" required="false"/>
+
+    <uses-feature name="android.hardware.sensor.accelerometer" required="false"/>
+
+    <permission name="com.android.chrome.permission.CHILD_SERVICE" protectionLevel="2"/>
+
+    <permission name="com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS" protectionLevel="3"/>
+
+    <permission name="com.android.chrome.TOS_ACKED" protectionLevel="3"/>
+
+    <permission name="com.android.chrome.permission.C2D_MESSAGE" protectionLevel="2"/>
+
+    <permission label="Debug web pages" name="com.android.chrome.permission.DEBUG" protectionLevel="2"/>
+
+    <permission name="com.android.chrome.permission.TRANSLATE" protectionLevel="2"/>
+
+    <uses-permission name="com.android.chrome.permission.C2D_MESSAGE"/>
+
+    <uses-permission name="com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS"/>
+
+    <uses-permission name="com.android.chrome.TOS_ACKED"/>
+
+    <uses-permission name="com.chrome.permission.DEVICE_EXTRAS"/>
+
+    <uses-permission name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <uses-permission name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+
+    <uses-permission name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS"/>
+
+    <uses-permission name="com.google.android.googlequicksearchbox.permission.LENS_SERVICE"/>
+
+    <uses-permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <uses-permission name="com.sec.enterprise.knox.MDM_CONTENT_PROVIDER"/>
+
+    <permission name="com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN" protectionLevel="3"/>
+
+    <uses-feature name="android.hardware.location.gps" required="false"/>
+
+    <uses-feature name="android.hardware.camera" required="false"/>
+
+    <uses-feature name="android.hardware.microphone" required="false"/>
+
+    <uses-feature name="android.hardware.touchscreen" required="false"/>
+
+    <queries>
+
+        <package name="com.google.ar.core"/>
+
+    </queries>
+
+    <application label="@id/0x7F1401E7" icon="@id/0x7F080250" name="org.chromium.chrome.browser.base.SplitMonochromeApplication" manageSpaceActivity="@id/0x7F140602" backupAgent="org.chromium.chrome.browser.ChromeBackupAgent" allowBackup="true" restoreAnyVersion="true" largeHeap="false" supportsRtl="true" fullBackupOnly="false" multiArch="true" extractNativeLibs="false" use32bitAbi="true" networkSecurityConfig="@id/0x7F180028" roundIcon="@id/0x7F080251" appComponentFactory="org.chromium.chrome.browser.base.SplitCompatAppComponentFactory" isSplitRequired="true" zygotePreloadName="org.chromium.content_public.app.ZygotePreload" allowAudioPlaybackCapture="false" localeConfig="@id/0x7F180043">
+
+        <meta-data name="org.chromium.content.browser.NUM_SANDBOXED_SERVICES" value="40"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService0" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process0" isolatedProcess="true" externalService="true" visibleToInstantApps="true" useAppZygote="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService1" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process1" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService2" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process2" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService3" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process3" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService4" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process4" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService5" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process5" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService6" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process6" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService7" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process7" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService8" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process8" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService9" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process9" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService10" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process10" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService11" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process11" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService12" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process12" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService13" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process13" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService14" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process14" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService15" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process15" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService16" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process16" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService17" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process17" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService18" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process18" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService19" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process19" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService20" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process20" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService21" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process21" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService22" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process22" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService23" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process23" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService24" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process24" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService25" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process25" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService26" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process26" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService27" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process27" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService28" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process28" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService29" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process29" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService30" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process30" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService31" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process31" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService32" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process32" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService33" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process33" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService34" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process34" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService35" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process35" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService36" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process36" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService37" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process37" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService38" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process38" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.content.app.SandboxedProcessService39" permission="com.android.chrome.permission.CHILD_SERVICE" exported="true" process=":sandboxed_process39" isolatedProcess="true" externalService="true" visibleToInstantApps="true"/>
+
+        <meta-data name="org.chromium.content.browser.NUM_PRIVILEGED_SERVICES" value="5"/>
+
+        <service name="org.chromium.content.app.PrivilegedProcessService0" permission="com.android.chrome.permission.CHILD_SERVICE" exported="false" process=":privileged_process0" isolatedProcess="false"/>
+
+        <service name="org.chromium.content.app.PrivilegedProcessService1" permission="com.android.chrome.permission.CHILD_SERVICE" exported="false" process=":privileged_process1" isolatedProcess="false"/>
+
+        <service name="org.chromium.content.app.PrivilegedProcessService2" permission="com.android.chrome.permission.CHILD_SERVICE" exported="false" process=":privileged_process2" isolatedProcess="false"/>
+
+        <service name="org.chromium.content.app.PrivilegedProcessService3" permission="com.android.chrome.permission.CHILD_SERVICE" exported="false" process=":privileged_process3" isolatedProcess="false"/>
+
+        <service name="org.chromium.content.app.PrivilegedProcessService4" permission="com.android.chrome.permission.CHILD_SERVICE" exported="false" process=":privileged_process4" isolatedProcess="false"/>
+
+        <meta-data name="android.allow_multiple_resumed_activities" value="true"/>
+
+        <meta-data name="com.samsung.android.sdk.multiwindow.enable" value="true"/>
+
+        <meta-data name="com.samsung.android.sdk.multiwindow.penwindow.enable" value="true"/>
+
+        <meta-data name="com.google.android.backup.api_key" value="AEdPqrEAAAAIf0B-GSVFi13Dd76NesRCxr7L1J1lxSqIc46ApA"/>
+
+        <meta-data name="android.content.APP_RESTRICTIONS" resource="@id/0x7F180008"/>
+
+        <meta-data name="com.google.ar.core" value="optional"/>
+
+        <meta-data name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME" value="org.chromium.components.media_router.caf.CastOptionsProvider"/>
+
+        <provider name="org.chromium.chrome.browser.util.ChromeFileProvider" exported="false" authorities="com.android.chrome.FileProvider" grantUriPermissions="true">
+
+            <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="@id/0x7F180018"/>
+
+        </provider>
+
+        <provider name="org.chromium.chrome.browser.download.DownloadFileProvider" exported="false" authorities="com.android.chrome.DownloadFileProvider" grantUriPermissions="true">
+
+            <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="@id/0x7F180018"/>
+
+        </provider>
+
+        <provider name="org.chromium.ui.base.DropDataContentProvider" exported="false" authorities="com.android.chrome.DropDataProvider" grantUriPermissions="true"/>
+
+        <provider name="org.chromium.chrome.browser.provider.ChromeBrowserProvider" exported="true" authorities="com.android.chrome.ChromeBrowserProvider;com.android.chrome.browser;com.android.chrome">
+
+            <path-permission readPermission="android.permission.GLOBAL_SEARCH" path="/bookmarks/search_suggest_query"/>
+
+        </provider>
+
+        <provider name="org.chromium.chrome.browser.attribution_reporting.AttributionReportingProvider" exported="true" authorities="com.android.chrome.AttributionReporting"/>
+
+        <provider name="com.google.android.apps.chrome.autofill.AutofillDataProvider" exported="true" authorities="com.android.chrome.AutofillDataProvider"/>
+
+        <provider name="com.google.android.apps.chrome.icing.IcingProvider" exported="true" authorities="com.android.chrome.icing"/>
+
+        <meta-data name="com.android.webview.WebViewLibrary" value="libmonochrome.so"/>
+
+        <activity theme="@id/0x7F15048D" label="WebView DevTools" icon="@id/0x7F08035E" name="org.chromium.android_webview.devui.MainActivity" exported="true" process=":webview_apk" taskAffinity="com.android.chrome.org.chromium.android_webview.devui" launchMode="2" windowSoftInputMode="32" visibleToInstantApps="true">
+
+            <intent-filter>
+
+                <action name="com.android.webview.SHOW_DEV_UI"/>
+
+                <category name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity-alias label="WebView DevTools" name="org.chromium.android_webview.devui.MonochromeLauncherActivity" enabled="false" exported="true" targetActivity="org.chromium.android_webview.devui.MainActivity">
+
+            <intent-filter>
+
+                <action name="android.intent.action.MAIN"/>
+
+                <category name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity-alias>
+
+        <activity-alias name="org.chromium.android_webview.SafeModeState" enabled="false" process=":webview_apk" targetActivity="org.chromium.android_webview.devui.MainActivity" visibleToInstantApps="true"/>
+
+        <activity-alias name="org.chromium.android_webview.devui.DeveloperModeState" enabled="false" process=":webview_apk" targetActivity="org.chromium.android_webview.devui.MainActivity" visibleToInstantApps="true"/>
+
+        <activity label="@id/0x7F1405B9" name="org.chromium.android_webview.nonembedded.LicenseActivity" exported="true" process=":webview_apk">
+
+            <intent-filter>
+
+                <action name="android.settings.WEBVIEW_LICENSE"/>
+
+                <category name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+
+            <meta-data name="com.android.settings.PRIMARY_PROFILE_CONTROLLED" value="true"/>
+
+        </activity>
+
+        <provider name="org.chromium.android_webview.nonembedded.LicenseContentProvider" exported="true" process=":webview_apk" authorities="com.android.chrome.LicenseContentProvider" grantUriPermissions="true"/>
+
+        <provider name="org.chromium.android_webview.services.DeveloperModeContentProvider" exported="true" process=":webview_service" authorities="com.android.chrome.DeveloperModeContentProvider" visibleToInstantApps="true"/>
+
+        <provider name="org.chromium.android_webview.services.SafeModeContentProvider" exported="true" process=":webview_service" authorities="com.android.chrome.SafeModeContentProvider" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.android_webview.services.VariationsSeedServer" exported="true" process=":webview_service"/>
+
+        <service name="org.chromium.android_webview.services.AwVariationsSeedFetcher" permission="android.permission.BIND_JOB_SERVICE" exported="false" process=":webview_service"/>
+
+        <service name="org.chromium.android_webview.services.CrashReceiverService" exported="true" process=":webview_service"/>
+
+        <service name="org.chromium.android_webview.services.AwMinidumpUploadJobService" permission="android.permission.BIND_JOB_SERVICE" exported="true" process=":webview_service"/>
+
+        <service name="org.chromium.android_webview.services.DeveloperUiService" exported="true" process=":webview_service"/>
+
+        <service name="org.chromium.android_webview.services.SafeModeService" exported="true" process=":webview_service"/>
+
+        <service name="org.chromium.android_webview.services.MetricsBridgeService" exported="true" process=":webview_service" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.android_webview.services.MetricsUploadService" exported="true" process=":webview_service" visibleToInstantApps="true"/>
+
+        <service name="org.chromium.android_webview.nonembedded.AwComponentUpdateService" permission="android.permission.BIND_JOB_SERVICE" exported="false" process=":webview_apk"/>
+
+        <service name="org.chromium.android_webview.services.ComponentsProviderService" exported="true" process=":webview_service" visibleToInstantApps="true"/>
+
+        <meta-data name="com.google.android.gms.version" value="@id/0x7F0C0030"/>
+
+        <activity theme="@id/0x01030010" name="com.google.android.gms.common.api.GoogleApiActivity" exported="false"/>
+
+        <service name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+
+        <receiver name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" exported="false"/>
+
+        <service name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" exported="false">
+
+            <meta-data name="backend:com.google.android.datatransport.cct.CctBackendFactory" value="cct"/>
+
+        </service>
+
+        <activity name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" enable="false" exported="false" process=":playcore_missing_splits_activity" stateNotNeeded="true" launchMode="3"/>
+
+        <activity theme="@id/0x7F15050F" name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" enable="false" exported="false" stateNotNeeded="true"/>
+
+        <service name="com.google.firebase.components.ComponentDiscoveryService" exported="false">
+
+            <meta-data name="com.google.firebase.components:com.google.firebase.iid.Registrar" value="com.google.firebase.components.ComponentRegistrar"/>
+
+            <meta-data name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+
+            <meta-data name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+
+            <meta-data name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" value="com.google.firebase.components.ComponentRegistrar"/>
+
+        </service>
+
+        <receiver name="com.google.firebase.iid.FirebaseInstanceIdReceiver" permission="com.google.android.c2dm.permission.SEND" exported="true">
+
+            <intent-filter>
+
+                <action name="com.google.android.c2dm.intent.RECEIVE"/>
+
+            </intent-filter>
+
+        </receiver>
+
+        <service name="com.google.firebase.messaging.FirebaseMessagingService" exported="false" directBootAware="true">
+
+            <intent-filter priority="-500">
+
+                <action name="com.google.firebase.MESSAGING_EVENT"/>
+
+            </intent-filter>
+
+        </service>
+
+        <ชื่อบริการ="androidx.room.MultiInstanceInvalidationService" exported="false" directBootAware="true"/>
+
+        <meta-data name="com.google.ar.core.min_apk_version" value="202940000"/>
+
+        <activity theme="@id/0x0103023A" name="com.google.ar.core.InstallActivity" exported="false" excludeFromRecents="true" launchMode="1" configChanges="1184"/>
+
+        <meta-data name="com.android.vending.splits.required" value="true"/>
+
+        <meta-data name="com.android.stamp.source" value="https://play.google.com/store"/>
+
+        <meta-data name="com.android.stamp.type" value="STAMP_TYPE_DISTRIBUTION_APK"/>
+
+        <meta-data name="com.android.vending.splits" value="@id/0x7F180042"/>
+
+        <meta-data name="com.android.vending.derived.apk.id" value="2"/>
+
+    </application>
+
+</manifest>
